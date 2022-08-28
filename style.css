@@ -45,17 +45,41 @@
     font-size: 20px;
     margin-right: 5px;
 }
-.content a{
+.content .btn{
     text-decoration: none;
     padding: 10px 20px;
     background-color: white;
     font-family: 'Poppins', sans-serif;
     color: black;
-    border: 1px solid #d6c64c;
+    border: 1px solid rgb(214, 198, 76);
     border-radius: 10px;
     transition: all 0.6s ease;
 }
-.content a:hover{
+.content .info-link{
+    margin-bottom: 20px;
+}
+.content .info-link .info-link-item{
+    text-decoration: none;
+    color: #d6c64c;
+   
+   
+}
+.content .info-link .info-link-icon{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #d6c64c;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 3px 9px 17px -8px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 3px 9px 17px -8px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 9px 17px -8px rgba(0,0,0,0.35);
+    transition: all 0.5s ease;
+}
+.content .info-link .info-link-icon:hover{
+    color: white;
+    background-color: #d6c64c;
+}
+.content .btn:hover{
     background-color: #d6c64c;
     color: white;
 }
